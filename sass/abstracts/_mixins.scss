@@ -1,0 +1,7 @@
+@mixin clearfix {
+    &::after{ // this fixes the no height issues with floating elements.
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
